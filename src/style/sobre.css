@@ -1,0 +1,246 @@
+.interno-sobre{
+    width: 92%;
+    border-left: 0.5px solid rgba(0, 0, 0, 0.068);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.068);
+    margin: 0 auto;
+    margin-top: -50px;
+    display: flex;
+    position: relative;
+  }
+
+  .interno-sobre.border-branco{
+    border-left: 0.5px solid rgba(255, 255, 255, 0.149);
+    border-right: 0.5px solid rgba(255, 255, 255, 0.149);
+  }
+  
+  .interno-sobre .esquerda{
+    border-right: 0.5px solid rgba(0, 0, 0, 0.068);
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-style: dashed;
+    width: 50%;
+    z-index: 0;
+    padding: 0 30px;
+    padding-top: 120px;
+  }
+
+  .interno-sobre .esquerda.border-branco{
+    border-right: 0.5px solid rgba(255, 255, 255, 0.149);
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-style: dashed;
+  }
+
+  .interno-sobre .esquerda .titulos{
+    position: relative;
+    padding: 170px;
+  }
+  
+  .interno-sobre .esquerda .titulos h1{
+    font-size: 13vw;
+    margin-bottom: 80px;
+    font-family: 'Syne', sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(-45deg, #E72F78, #090033, #E72F78, #090033);
+    animation: gradiente 15s ease infinite;
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    line-height: 12vw;
+  }
+
+  .interno-sobre .esquerda .titulos p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 20vw;
+    left: 1vw;
+    font-weight: 600;
+    font-size: 2vw;
+  }
+
+  @keyframes gradiente {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
+  .interno-sobre .direita{
+    border-right: 0.5px solid rgba(0, 0, 0, 0.068);
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    width: 50%;
+    z-index: 0;
+    padding: 0 30px;
+    padding-top: 120px;
+  }
+  
+  .interno-sobre .direita .titulos{
+    height: 220px;
+  }
+  
+  .interno-sobre .blocos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .escurecer{
+    background-color: rgb(2, 2, 2);
+    transition: 0.5s;
+    color: white;
+  }
+  
+  .interno-sobre .blocos .box1.clarear{
+    background-color: white;
+    transition: 0.5s;
+  }
+
+  .interno-sobre .esquerda .texto{
+  }
+
+  .interno-sobre .esquerda .texto h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px 0;
+    font-weight: 600;
+  }
+
+  .interno-sobre .direita{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 50px;
+  }
+
+  .interno-sobre .esquerda .curriculo{
+    margin-top: 250px;
+    text-align: center;
+  }
+
+  .interno-sobre button{
+    width: 200px;
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to right, #f5be30, #e72e79);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .interno-sobre .direita .curriculo{
+    width: 100%;
+    text-align: center;
+  }
+
+  .navegacao-sobre{
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+  }
+  
+  .navegacao-sobre .interno2{
+    margin: 0;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .navegacao-sobre ul{
+    display: flex;
+    width: 325px;
+    margin: 20px 20px 0 0;
+  }
+  
+  .navegacao-sobre li{
+    list-style-type: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .navegacao-sobre a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navegacao-sobre i{
+    font-size: 20px;
+  }
+
+  .interno-sobre .direita .top{
+    padding-top: 325px;
+  }
+
+  .interno-sobre .direita .foto{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .interno-sobre .direita .foto img{
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 10px solid black;
+  }
+
+  .interno-sobre .esquerda .texto{
+    padding: 80px 0;
+    padding-bottom: 40px;
+  }
+
+  .interno-sobre .direita .titulo-texto h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 122px;
+    font-weight: 600;
+  }
+
+  .interno-sobre .esquerda .titulo-skills{
+    padding: 80px 0;
+  }
+
+  .interno-sobre .esquerda .titulo-skills h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150px;
+    font-weight: 600;
+  }
+
+  .interno-sobre .esquerda .skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+  }
+
+  .react, .figma, .javascript, .sass, .jira, .node, .wordpress, .git{
+    width: 12.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .react i, .figma i, .javascript i, .sass i, .jira i, .node i, .wordpress i, .git i{
+    font-size: 52px;
+  }
+
+  .interno-sobre .direita{
+    padding-bottom: 60px;
+  }
+
+  .interno-sobre .direita .titulo-texto{
+    padding-top: 393px;
+  }
